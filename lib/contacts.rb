@@ -22,7 +22,7 @@ if person == "Freddy Mercury" # We are saying if any person in the contacts hash
 
 if attribute == "favorite_ice_cream_flavors"
 data.delete_if {|ice_cream| ice_cream == "strawberry"}
-binding.pry
+#binding.pry
 end
 end
 end
