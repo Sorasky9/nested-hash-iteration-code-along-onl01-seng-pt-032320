@@ -20,7 +20,7 @@ if person == "Freddy Mercury" # We are saying if any person in the contacts hash
   details.each do |attribute, data| # We should iterate over details; which are 'subhashes' of information related to Freddy Mercury. attribute has keys of names, email, favorite ice cream flavors and the data are the values of the keys of attribute we will iterate as well.
     #binding.pry
 
-if attribute == "favorite_ice_cream_flavors"
+if attribute == :favorite_ice_cream_flavors
 data.delete_if {|ice_cream| ice_cream == "strawberry"}
 #binding.pry
 end
